@@ -1,0 +1,44 @@
+nav {
+  background-color: darkgray;
+  padding: 20px;
+}
+
+h2 {
+  color: white;
+  display: inline;
+}
+
+ul {
+  display: inline-block;
+  text-align: right;
+  position: relative;
+  top: -10px;
+}
+
+ul > li {
+  text-decoration: none;
+  list-style-type: none;
+  display: inline;
+  margin: 10px;
+  color: white;
+}
+
+.album-example {
+  text-align: center;
+}
+
+img {
+  width: 250px;
+  height: 250px;
+  margin: 10px;
+}
+
+.thumbnail-images {
+  text-align: center;
+  margin: 40px;
+}
+
+footer {
+  background-color: lightgray;
+  padding: 30px;
+}

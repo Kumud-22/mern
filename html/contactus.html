@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Contact Us</title>
+    <style>
+        /* Add some basic styling to the contact form */
+        .contact-form {
+            max-width: 400px;
+            margin: 0 auto;
+        }
+    </style>
+</head>
+<body>
+    <h1>Contact Us</h1>
+    
+    <div class="contact-form">
+        <form action="process_form.php" method="POST">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="subject">Subject:</label>
+            <input type="text" id="subject" name="subject" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+
+    <h2>Contact Information:</h2>
+    <p>Phone: +1-123-456-7890</p>
+    <p>Email: info@example.com</p>
+    <p>Address: 123 Main St, City, Country</p>
+
+    <h2>Connect with Us:</h2>
+    <ul>
+        <li><a href="https://www.facebook.com/example">Facebook</a></li>
+        <li><a href="https://www.twitter.com/example">Twitter</a></li>
+        <li><a href="https://www.instagram.com/example">Instagram</a></li>
+    </ul>
+</body>
+</html>

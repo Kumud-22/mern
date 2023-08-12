@@ -1,0 +1,27 @@
+.item {
+  background-color: blue;
+  flex-grow: 1;
+}
+
+.container {
+  background-color: aqua;
+  height: 800px;
+  width: 900px;
+  flex-direction: column;
+  display: flex;
+
+  gap: 10px;
+}
+
+.header {
+  flex-grow: 1;
+}
+
+.footer {
+  flex-grow: 1;
+}
+.bodyel {
+  flex-grow: 1;
+  display: flex;
+  gap: 10px;
+}

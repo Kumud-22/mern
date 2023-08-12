@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.containerflexcount
+{
+    background-color: rgb(8, 84, 30);
+    max-width: 800px;
+    min-height: 400px;    
+}
+.containerflexcount 
+p{
+    background-color: rgb(255, 0, 157);
+    color:rgb(0, 0, 0);
+    font-size: 25px;
+    border:1px solid rgb(0, 255, 255);
+    box-sizing: border-box ;
+}
+.containerflexcount
+{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+p{
+    align-self: center;
+}
+p:nth-child(2){
+    height: 100px;
+}
