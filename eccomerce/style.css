@@ -31,16 +31,10 @@ nav {
   }
   
   .thumbnail-images {
-    /* display: flex; */
-    /* flex-direction: column; */
-    /* align-items: center; */
+     
+    
   
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 10px;
-    margin: 20px;
-    padding: 50px;
-    text-align: center;
+ 
   }
   
   footer {
@@ -49,16 +43,20 @@ nav {
     color: white;
   }
   
-  .image-row {
-    display: flex;
-  }
-  
-  .image-card {
+  .image-card-1 {
     width: 250px;
     height: 400px;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     margin: 20px;
+  }
+
+  c1{
+    
+  }
+
+  .image-card-2{
+
   }
   
   .button-row {
